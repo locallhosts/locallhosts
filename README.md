@@ -5,7 +5,7 @@ Full-stack developer moving into security engineering and applied ML. I build th
 - 🔭 Currently building **[ebpf-edr](https://github.com/locallhosts/ebpf-edr)** — a Linux EDR using eBPF for kernel-level threat detection, mapped to MITRE ATT&CK
 - 🌱 Learning eBPF, Go, and detection engineering
 - 💼 Background in PHP/JavaScript web apps and Python computer vision
-- 📫 Reach me on X: [@afritechy](https://twitter.com/afritechy)
+- 📫 Reach me on X: [@achovile](https://twitter.com/achovile)
 
 ## 🛠️ Featured Projects
 
