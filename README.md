@@ -21,7 +21,7 @@ Full-stack developer moving into security engineering and applied ML. I build th
 
 ## 📊 GitHub Stats
 
-![locallhosts's GitHub stats](https://github-readme-stats.vercel.app/api?username=locallhosts&show_icons=true&theme=dark)
+![locallhosts's GitHub stats](https://github-readme-stats-eight-theta.vercel.app/api?username=locallhosts&show_icons=true&theme=dark&hide_border=true)
 
 ---
 ⭐️ From [locallhosts](https://github.com/locallhosts)
