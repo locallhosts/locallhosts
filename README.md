@@ -1,27 +1,85 @@
-# Hi, I'm Isaiah Oboh 👋
+# Hi, I'm Isaiah 👋
 
-Full-stack developer moving into security engineering and applied ML. I build things end-to-end — from web apps to kernel-level threat detection.
+### Security Engineer · Security Automation · Detection Engineering
 
-- 🔭 Currently building **[ebpf-edr](https://github.com/locallhosts/ebpf-edr)** — a Linux EDR using eBPF for kernel-level threat detection, mapped to MITRE ATT&CK
-- 🌱 Learning eBPF, Go, and detection engineering
-- 💼 Background in PHP/JavaScript web apps and Python computer vision
-- 📫 Reach me on X: [@achovile](https://twitter.com/achovile)
+I build security-focused software, research security problems, and turn ideas into working tools.
 
-## 🛠️ Featured Projects
+My interests sit at the intersection of **security engineering, software development, Linux, and automation**.
 
-| Project | Description | Stack |
-|---|---|---|
-| [ebpf-edr](https://github.com/locallhosts/ebpf-edr) | Kernel-level EDR using eBPF — detects reverse shells, memory injection, and process masquerading with zero userland hooks | C (eBPF), Go, React/TypeScript |
-| [RealEstate](https://github.com/locallhosts/RealEstate) | Real estate listing platform | PHP |
-| [Africashopping](https://github.com/locallhosts/Africashopping) | E-commerce platform | — |
-| [votesystem](https://github.com/locallhosts/votesystem) | Voting system application | JavaScript |
-| [gender_age_detection](https://github.com/locallhosts/gender_age_detection) | Computer vision model for gender/age detection | Python |
-| [objectdetect](https://github.com/locallhosts/objectdetect) | Object detection project | Python |
-| [Capstone-Project-II](https://github.com/locallhosts/Capstone-Project-II) | Capstone data/ML project | Jupyter Notebook |
+### What I'm working on
 
-## 📊 GitHub Stats
+ **Security Engineering**
+Building practical security tools and systems.
 
-![locallhosts's GitHub stats](https://github-readme-stats-eight-theta.vercel.app/api?username=locallhosts&show_icons=true&theme=dark&hide_border=true)
+ **Detection Engineering**
+Designing and testing detections against real-world attack behavior and adversarial variations.
+
+ **Linux & eBPF**
+Exploring kernel-level telemetry, system behavior, and Linux security.
+
+ **Security Automation**
+Using Go and Python to automate security workflows, analysis, and validation.
+
+ **Offensive Security**
+Interested in vulnerability research, attack simulation, exploit development, and understanding how systems fail.
 
 ---
-⭐️ From [locallhosts](https://github.com/locallhosts)
+
+### Featured Projects
+
+**[Wraith](https://github.com/locallhosts/Wraith)**
+A detection-engineering platform for validating security detections through attack simulation, adversarial testing, and automated evidence generation.
+
+**[eBPF EDR](https://github.com/locallhosts/ebpf-edr)**
+A Linux endpoint detection project built around eBPF, kernel telemetry, and behavioral detection.
+
+---
+
+### Technologies
+
+**Languages**
+
+`Go` `Python` `C` `C++` `TypeScript` `JavaScript` `Java` `Bash`
+
+**Security**
+
+`eBPF` `MITRE ATT&CK` `Sigma` `EDR` `Detection Engineering` `Security Automation`
+
+**Infrastructure**
+
+`Linux` `Docker` `Kubernetes` `Terraform` `GitHub Actions`
+
+---
+
+### How I like to work
+
+I enjoy understanding a problem from the low level up, building the system, testing it against realistic conditions, and documenting what I learn.
+
+```text
+Understand → Build → Test → Break → Improve → Document
+```
+
+I'm especially interested in projects where **security research becomes practical engineering**.
+
+---
+
+### Currently exploring
+
+* Linux security & eBPF
+* Detection engineering
+* Security automation
+* Vulnerability research
+* Offensive security
+* CI/CD security
+* Cloud security
+* Security-focused systems programming
+
+---
+
+### Find me
+
+[GitHub](https://github.com/locallhosts) · [LinkedIn](https://za.linkedin.com/in/isaiah-o-804aaa210) · [X](https://twitter.com/achovile)
+
+<br>
+
+> Building security tools, exploring how systems fail, and learning by building.
