@@ -49,6 +49,9 @@ A detection-engineering platform for validating security detections through atta
 **[eBPF EDR](https://github.com/locallhosts/ebpf-edr)**
 A Linux endpoint detection project built around eBPF, kernel telemetry, and behavioral detection.
 
+**[Stream SIEM](https://github.com/locallhosts/stream-siem)**
+A real-time security telemetry and detection pipeline built with Go, Kafka, Apache Flink, ClickHouse, and Python.
+
 **[Zero-Trust-IAP](https://github.com/locallhosts/Zero-Trust-IAP)**
 A Zero Trust Identity-Aware Proxy implementing mTLS, SPIFFE/SPIRE workload identity, device posture checks, policy enforcement, and Vault-backed PKI with automated certificate rotation.
 
