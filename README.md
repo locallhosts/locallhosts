@@ -16,7 +16,7 @@ My interests sit at the intersection of **security engineering, software develop
 
 ---
 
-### What I'm working on
+### Security Focus
 
 **Security Engineering**
 Building practical security tools and systems.
