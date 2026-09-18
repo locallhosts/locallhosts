@@ -99,9 +99,13 @@ A Zero Trust Identity-Aware Proxy implementing mTLS, SPIFFE/SPIRE workload ident
 ![Vault](https://img.shields.io/badge/-Vault-000000?style=flat-square&logo=vault&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![GCP](https://img.shields.io/badge/-GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/-Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Apache Flink](https://img.shields.io/badge/-Apache_Flink-E6522C?style=flat-square&logo=apacheflink&logoColor=white)
+![ClickHouse](https://img.shields.io/badge/-ClickHouse-FFCC00?style=flat-square&logo=clickhouse&logoColor=black)
 
 ---
 
@@ -120,14 +124,27 @@ I'm especially interested in projects where **security research becomes practica
 ### Currently exploring
 
 * Application security
+* API security
+* Web security
 * Linux security & eBPF
 * Detection engineering
-* Zero trust architecture
+* SIEM & security monitoring
+* Threat detection & behavioral analytics
+* Zero Trust architecture
+* Identity & access management
 * Security automation
+* CI/CD security
+* DevSecOps
+* Cloud security
+* Cloud-native security
+* Container security
+* Kubernetes security
 * Vulnerability research
 * Offensive security
-* CI/CD security
-* Cloud security
+* Exploit development
+* Malware analysis
+* Network security
+* Cryptography
 
 ---
 
