@@ -6,7 +6,7 @@
 
 I build security-focused software, research security problems, and turn ideas into working tools.
 
-My interests sit at the intersection of **security engineering, software development, application security, and automation**.
+My interests sit at the intersection of **security engineering, software development, application security, detection engineering, and automation**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-locallhosts-181717?style=for-the-badge&logo=github)](https://github.com/locallhosts)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaiah_O-0A66C2?style=for-the-badge&logo=linkedin)](https://za.linkedin.com/in/isaiah-o-804aaa210)
@@ -42,6 +42,9 @@ Interested in vulnerability research, attack simulation, exploit development, an
 ---
 
 ### Featured Projects
+
+**[Resync](https://github.com/locallhosts/Resync)**
+A distributed SOAR platform demonstrating event-driven security automation with event sourcing, CQRS, Kafka, PostgreSQL, Redis, Go, Java, and React.
 
 **[Wraith](https://github.com/locallhosts/Wraith)**
 A detection-engineering platform for validating security detections through attack simulation, adversarial testing, and automated evidence generation.
@@ -89,8 +92,10 @@ A Zero Trust Identity-Aware Proxy implementing mTLS, SPIFFE/SPIRE workload ident
 ![Detection Engineering](https://img.shields.io/badge/-Detection_Engineering-37474F?style=flat-square)
 ![SIEM](https://img.shields.io/badge/-SIEM-455A64?style=flat-square)
 ![SOAR](https://img.shields.io/badge/-SOAR-455A64?style=flat-square)
+![Event Sourcing](https://img.shields.io/badge/-Event_Sourcing-455A64?style=flat-square)
+![CQRS](https://img.shields.io/badge/-CQRS-455A64?style=flat-square)
 
-**Infrastructure & Cloud**
+**Infrastructure, Cloud & Platforms**
 
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -106,6 +111,10 @@ A Zero Trust Identity-Aware Proxy implementing mTLS, SPIFFE/SPIRE workload ident
 ![Apache Kafka](https://img.shields.io/badge/-Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Apache Flink](https://img.shields.io/badge/-Apache_Flink-E6522C?style=flat-square&logo=apacheflink&logoColor=white)
 ![ClickHouse](https://img.shields.io/badge/-ClickHouse-FFCC00?style=flat-square&logo=clickhouse&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 
 ---
 
