@@ -156,13 +156,22 @@ I care about **working implementations, measurable behavior, reproducible valida
 - eBPF and kernel telemetry
 - Detection engineering and adversarial validation
 - SIEM and SOAR architecture
+- Security monitoring and threat detection
 - Application and API security
+- Secure software architecture
 - Identity and Zero Trust architecture
-- Cloud and Kubernetes security
+- Cloud security
+- Kubernetes and container security
 - CI/CD and DevSecOps security
-- Security automation
+- Security automation and orchestration
 - Vulnerability research and offensive security
-- Security-focused distributed systems
+- Penetration testing and attack simulation
+- Exploit development and binary analysis
+- Malware analysis and reverse engineering
+- Network security and network telemetry
+- Cryptography and applied security
+- Security engineering for distributed systems
+- Security testing, validation, and security tooling
 
 ---
 
