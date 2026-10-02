@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Isaiah 👋
+[![Terminal](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=45&pause=900&color=00FF88&center=true&vCenter=true&multiline=true&repeat=false&width=900&height=190&lines=%24+whoami%0AIsaiah%0A%0A%24+./security-engineer.sh%0A%5B%2B%5D+Endpoint+Security+%7C+Detection+Engineering+%7C+Application+Security%0A%5B%2B%5D+Zero+Trust+%7C+Cloud+Security+%7C+Offensive+Security%0A%24+_%7C)](https://git.io/typing-svg)
 
 ### Security Engineer · Application Security · Detection Engineering
 
