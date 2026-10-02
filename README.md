@@ -4,9 +4,9 @@
 
 ### Security Engineer · Application Security · Detection Engineering
 
-I build security-focused software, security automation, and systems for understanding, detecting, and responding to real-world threats.
+I build security-focused software, security automation, and security systems for understanding, detecting, validating, and responding to real-world threats.
 
-My work focuses on turning security research into practical engineering across **endpoint security, detection engineering, security operations, application security, identity, and cloud-native infrastructure**.
+My work spans **endpoint security, detection engineering, security operations, application security, identity and Zero Trust, cloud-native infrastructure, offensive security, and security research**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-locallhosts-181717?style=for-the-badge&logo=github)](https://github.com/locallhosts)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaiah_O-0A66C2?style=for-the-badge&logo=linkedin)](https://za.linkedin.com/in/isaiah-o-804aaa210)
@@ -18,29 +18,23 @@ My work focuses on turning security research into practical engineering across *
 
 ## Security Engineering Focus
 
-| **Area**                                | **Focus**                                                                                                 |
-| --------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **Endpoint & Linux Security**           | eBPF, kernel telemetry, process monitoring, system behavior, endpoint visibility                          |
-| **Detection Engineering**               | MITRE ATT&CK, Sigma, behavioral detections, adversarial testing, detection validation                     |
-| **Security Operations**                 | SIEM, SOAR, alerting, incident workflows, telemetry pipelines, security operations                        |
-| **Application Security**                | Secure design, code review, web security, API security, vulnerability assessment                          |
-| **API Security**                        | Authentication, authorization, API testing, abuse cases, secure API design                                |
-| **Offensive Security**                  | Penetration testing, attack simulation, reconnaissance, exploitation, post-exploitation analysis          |
-| **Vulnerability Research**              | Vulnerability discovery, root-cause analysis, security testing, proof-of-concept development              |
-| **Exploit Development**                 | Memory corruption, exploitation concepts, binary analysis, debugging, mitigation analysis                 |
-| **Malware Analysis**                    | Static analysis, dynamic analysis, behavioral analysis, reverse engineering                               |
-| **Network Security**                    | Network telemetry, protocol analysis, traffic visibility, packet analysis, network detection              |
-| **Identity & Zero Trust**               | Workload identity, mTLS, SPIFFE/SPIRE, policy enforcement, posture-aware access                           |
-| **Cryptography & PKI**                  | Cryptographic primitives, TLS/mTLS, certificates, key management, PKI                                     |
-| **Cloud Security**                      | AWS, GCP, Azure, cloud IAM, cloud workloads, infrastructure security                                      |
-| **Container & Kubernetes Security**     | Container isolation, Kubernetes security, workload protection, cluster hardening                          |
-| **CI/CD & DevSecOps**                   | Secure pipelines, dependency security, supply-chain security, automated security testing                  |
-| **Security Automation**                 | Go, Python, Java, scripting, API integration, orchestration, security tooling                             |
-| **Security Architecture**               | Threat modeling, trust boundaries, secure architecture, defense-in-depth, security controls               |
-| **Distributed Security Systems**        | Event-driven systems, Kafka, event sourcing, CQRS, resilient security workflows                           |
-| **Security Monitoring & Observability** | Prometheus, telemetry, metrics, logging, detection pipelines, operational visibility                      |
-| **Security Testing & Validation**       | Automated testing, security regression testing, adversarial validation, benchmarking, evidence generation |
-
+| Area | Focus |
+| --- | --- |
+| **Endpoint & Linux Security** | eBPF, kernel telemetry, process monitoring, system behavior, endpoint visibility |
+| **Detection Engineering** | MITRE ATT&CK, Sigma, behavioral detections, adversarial testing, detection validation |
+| **Security Operations** | SIEM, SOAR, alerting, incident workflows, telemetry pipelines |
+| **Application & API Security** | Secure design, code review, authentication, authorization, API testing |
+| **Offensive Security** | Penetration testing, attack simulation, reconnaissance, exploitation, post-exploitation analysis |
+| **Vulnerability Research** | Vulnerability discovery, root-cause analysis, security testing, proof-of-concept development |
+| **Exploit Development** | Memory corruption, binary analysis, debugging, exploitation concepts, mitigation analysis |
+| **Identity & Zero Trust** | Workload identity, mTLS, SPIFFE/SPIRE, policy enforcement, posture-aware access |
+| **Network Security** | Network telemetry, protocol analysis, packet analysis, network detection |
+| **Cryptography & PKI** | Cryptographic primitives, TLS/mTLS, certificates, key management, PKI |
+| **Cloud & Kubernetes Security** | AWS, GCP, Azure, IAM, containers, Kubernetes workloads, infrastructure security |
+| **CI/CD & DevSecOps** | Secure pipelines, dependency security, supply-chain security, automated security testing |
+| **Security Automation** | Go, Python, Java, scripting, API integration, orchestration, security tooling |
+| **Security Architecture** | Threat modeling, trust boundaries, secure architecture, defense-in-depth |
+| **Security Validation** | Automated testing, regression testing, adversarial validation, benchmarking, evidence generation |
 
 ---
 
@@ -49,7 +43,7 @@ My work focuses on turning security research into practical engineering across *
 ### [eBPF EDR](https://github.com/locallhosts/ebpf-edr)
 **Linux Endpoint Detection & Response**
 
-An eBPF-based endpoint security project combining kernel instrumentation, Go telemetry and detection logic, network visibility, behavioral detections, operational controls, Prometheus metrics, and a SOC-oriented dashboard.
+An eBPF-based endpoint security platform combining kernel instrumentation, Go telemetry processing, behavioral detection, network visibility, operational controls, Prometheus metrics, and a SOC-oriented dashboard.
 
 **Focus:** eBPF · Linux Security · EDR · Behavioral Detection · Network Telemetry · MITRE ATT&CK
 
@@ -58,9 +52,49 @@ An eBPF-based endpoint security project combining kernel instrumentation, Go tel
 ### [Wraith](https://github.com/locallhosts/Wraith)
 **Detection Engineering & Security Validation**
 
-A security detection engineering platform focused on validating detections through attack simulation, adversarial testing, Sigma evaluation, and repeatable evidence.
+A security detection engineering platform focused on attack simulation, adversarial testing, Sigma evaluation, detection validation, and repeatable security evidence.
 
 **Focus:** Detection Engineering · Threat Simulation · Sigma · ATT&CK · Security Validation
+
+---
+
+### [Zero-Trust-IAP](https://github.com/locallhosts/Zero-Trust-IAP)
+**Identity-Aware Zero Trust Access Proxy**
+
+A security-focused access gateway built around identity, cryptographic workload identity, mTLS, device posture, adaptive risk evaluation, policy enforcement, protected application access, and security auditing.
+
+**Security flow:**
+
+```text
+User / Workload
+      ↓
+Identity
+      ↓
+mTLS + JWT
+      ↓
+Device Posture
+      ↓
+Risk Evaluation
+      ↓
+Policy Engine
+      ↓
+ALLOW / DENY
+      ↓
+Protected Application
+      ↓
+Security Audit
+```
+
+**Focus:** Zero Trust · IAM · mTLS · SPIFFE/SPIRE · PKI · Vault · Policy Enforcement
+
+---
+
+### [Stream SIEM](https://github.com/locallhosts/stream-siem)
+**Real-Time Security Telemetry & Detection**
+
+A streaming security analytics platform designed around high-throughput telemetry ingestion, stream processing, detection, and analytical storage.
+
+**Focus:** SIEM · Kafka · Apache Flink · ClickHouse · Go · Python
 
 ---
 
@@ -73,21 +107,12 @@ A distributed SOAR platform demonstrating event sourcing, CQRS, durable security
 
 ---
 
-### [Stream SIEM](https://github.com/locallhosts/stream-siem)
-**Real-Time Security Telemetry & Detection**
+### [SocialSync](https://github.com/locallhosts/socialsync)
+**Secure Platform Engineering · AI · OAuth**
 
-A streaming security analytics pipeline designed around high-throughput telemetry ingestion, stream processing, detection, and analytical storage.
+A full-stack management platform combining application engineering, authentication and authorization, OAuth integrations, AI-assisted workflows, analytics, management interfaces, CI/CD security, and containerized infrastructure.
 
-**Focus:** SIEM · Kafka · Apache Flink · ClickHouse · Go · Python
-
----
-
-### [Zero-Trust-IAP](https://github.com/locallhosts/Zero-Trust-IAP)
-**Identity-Aware Access & Workload Identity**
-
-A Zero Trust Identity-Aware Proxy using cryptographic workload identity, mTLS, SPIFFE/SPIRE, device posture checks, policy enforcement, Vault-backed PKI, and certificate rotation.
-
-**Focus:** Zero Trust · IAM · mTLS · SPIFFE/SPIRE · PKI · Vault
+**Focus:** Secure APIs · OAuth · AI Engineering · Kubernetes · CI/CD · Platform Security
 
 ---
 
@@ -170,12 +195,10 @@ I care about **working implementations, measurable behavior, reproducible valida
 - eBPF and kernel telemetry
 - Detection engineering and adversarial validation
 - SIEM and SOAR architecture
-- Security monitoring and threat detection
 - Application and API security
 - Secure software architecture
-- Identity and Zero Trust architecture
-- Cloud security
-- Kubernetes and container security
+- Identity and Zero Trust
+- Cloud, Kubernetes, and container security
 - CI/CD and DevSecOps security
 - Security automation and orchestration
 - Vulnerability research and offensive security
@@ -191,7 +214,7 @@ I care about **working implementations, measurable behavior, reproducible valida
 
 <div align="center">
 
-### Security research → Engineering → Validation
+### Security Research → Engineering → Validation
 
 **[GitHub](https://github.com/locallhosts) · [LinkedIn](https://za.linkedin.com/in/isaiah-o-804aaa210) · [X](https://twitter.com/achovile)**
 
