@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Isaiah 👋
+# Hi, I'm Isaiah 
 
 ### Security Engineer · Application Security · Detection Engineering
 
