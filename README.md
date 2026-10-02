@@ -18,15 +18,29 @@ My work focuses on turning security research into practical engineering across *
 
 ## Security Engineering Focus
 
-| Area | Focus |
-|---|---|
-| **Endpoint & Linux Security** | eBPF, kernel telemetry, behavioral detection, process and network visibility |
-| **Detection Engineering** | ATT&CK-aligned detections, adversarial testing, validation, evidence generation |
-| **Security Operations** | SIEM, SOAR, event-driven automation, telemetry pipelines, security workflows |
-| **Application Security** | Secure design, API security, web security, vulnerability research, code review |
-| **Identity & Zero Trust** | Workload identity, mTLS, policy enforcement, PKI, posture-aware access |
-| **Security Automation** | Go and Python tooling, validation, orchestration, CI/CD security |
-| **Cloud & Infrastructure Security** | Containers, Kubernetes, cloud security, infrastructure hardening |
+| **Area**                                | **Focus**                                                                                                 |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Endpoint & Linux Security**           | eBPF, kernel telemetry, process monitoring, system behavior, endpoint visibility                          |
+| **Detection Engineering**               | MITRE ATT&CK, Sigma, behavioral detections, adversarial testing, detection validation                     |
+| **Security Operations**                 | SIEM, SOAR, alerting, incident workflows, telemetry pipelines, security operations                        |
+| **Application Security**                | Secure design, code review, web security, API security, vulnerability assessment                          |
+| **API Security**                        | Authentication, authorization, API testing, abuse cases, secure API design                                |
+| **Offensive Security**                  | Penetration testing, attack simulation, reconnaissance, exploitation, post-exploitation analysis          |
+| **Vulnerability Research**              | Vulnerability discovery, root-cause analysis, security testing, proof-of-concept development              |
+| **Exploit Development**                 | Memory corruption, exploitation concepts, binary analysis, debugging, mitigation analysis                 |
+| **Malware Analysis**                    | Static analysis, dynamic analysis, behavioral analysis, reverse engineering                               |
+| **Network Security**                    | Network telemetry, protocol analysis, traffic visibility, packet analysis, network detection              |
+| **Identity & Zero Trust**               | Workload identity, mTLS, SPIFFE/SPIRE, policy enforcement, posture-aware access                           |
+| **Cryptography & PKI**                  | Cryptographic primitives, TLS/mTLS, certificates, key management, PKI                                     |
+| **Cloud Security**                      | AWS, GCP, Azure, cloud IAM, cloud workloads, infrastructure security                                      |
+| **Container & Kubernetes Security**     | Container isolation, Kubernetes security, workload protection, cluster hardening                          |
+| **CI/CD & DevSecOps**                   | Secure pipelines, dependency security, supply-chain security, automated security testing                  |
+| **Security Automation**                 | Go, Python, Java, scripting, API integration, orchestration, security tooling                             |
+| **Security Architecture**               | Threat modeling, trust boundaries, secure architecture, defense-in-depth, security controls               |
+| **Distributed Security Systems**        | Event-driven systems, Kafka, event sourcing, CQRS, resilient security workflows                           |
+| **Security Monitoring & Observability** | Prometheus, telemetry, metrics, logging, detection pipelines, operational visibility                      |
+| **Security Testing & Validation**       | Automated testing, security regression testing, adversarial validation, benchmarking, evidence generation |
+
 
 ---
 
