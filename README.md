@@ -12,7 +12,6 @@ My work spans **endpoint security, detection engineering, security operations, a
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Isaiah_O-0A66C2?style=for-the-badge&logo=linkedin)](https://za.linkedin.com/in/isaiah-o-804aaa210)
 [![X](https://img.shields.io/badge/X-@achovile-000000?style=for-the-badge&logo=x)](https://twitter.com/achovile)
 
-<img src="https://komarev.com/ghpvc/?username=locallhosts&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
 
 </div>
 
